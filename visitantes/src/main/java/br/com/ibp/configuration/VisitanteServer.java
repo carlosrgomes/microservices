@@ -11,10 +11,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan(basePackages="br.com.ibp.entity")
 @EnableEurekaClient
 
-public class App {
+public class VisitanteServer {
 	
 	
 	public static void main(String[] args) {
-		SpringApplication.run(App.class, args);
+		SpringApplication.run(VisitanteServer.class, args);
 	}
 }
