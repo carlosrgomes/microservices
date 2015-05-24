@@ -107,7 +107,7 @@
 		    <artifactId>docker-maven-plugin</artifactId>
 		    <version>0.2.3</version>
 		    <configuration>
-		        <imageName>visitante/${project.artifactId}</imageName>
+		        <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 		        <dockerDirectory>src/main/docker</dockerDirectory>
 		        <resources>
 		            <resource>
